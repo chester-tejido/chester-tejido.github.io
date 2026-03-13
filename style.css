@@ -2,8 +2,10 @@ body {
 	margin: 0;
 	padding: 0;
 
-	background-color: #4b244a;
+	background-color: #111112;
 	color: #fff;
+
+	font-family: 'Roboto', sans-serif;
 
 	display: flex;
 	align-items: center;
@@ -11,4 +13,64 @@ body {
 
 	height: 100vh;
 	width: 100vw;
+
+	position: relative;
+	z-index: 2;
+}
+
+div.container {
+	position: relative;
+
+	background-color: #111112;
+
+	width: 250px;
+	height: 100px;
+
+	overflow: hidden;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border: solid 5px transparent;
+	border-radius: 40px;
+	box-sizing: border-box;
+
+	box-shadow:
+		inset 15px 15px 50px #070707,
+		inset -15px -15px 50px #1b1b1d;
+}
+
+div.container div.text {
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #e0e0e0;
+
+	mix-blend-mode: difference;
+}
+
+div.container::before {
+	content: '';
+
+	width: 0;
+	height: 100%;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	background: linear-gradient(145deg, #fff, #cacaca);
+
+	animation: stretch 3s infinite;
+}
+
+@keyframes stretch {
+	100% {
+		width: 100%;
+		left: 100%;
+	}
+	50% {
+		width: 100%;
+		left: 0;
+	}
 }
