@@ -4,9 +4,9 @@
 
 Built with the following popular libraries:
 
-- ![Vue](assets/vue-logo.svg#thumbnail){width=2%} [Vue live site](https://chester-tejido.github.io/vue)
-- ![React](assets/react-logo.svg){width=2%} [React live site](https://chester-tejido.github.io/react)
-- ![Angular](assets/angular-logo.svg){width=2%} [Angular live site](https://chester-tejido.github.io/angular)
+- <img src="assets/vue-logo.svg" width=2%> [Vue live site](https://chester-tejido.github.io/vue)
+- <img src="assets/react-logo.svg" width=2%> [React live site](https://chester-tejido.github.io/react)
+- <img src="assets/angular-logo.svg" width=2%> [Angular live site](https://chester-tejido.github.io/angular)
 
 ---
 
