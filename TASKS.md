@@ -15,16 +15,17 @@ Create a 3D portfolio that showcases my past work experiences, the projects that
 
 ### Setting up for `Three.js`:
 
-- [ ] Add Threejs to the project
-- [ ] Use canvas to render anything on the page
-- [ ] Ensure the canvas dimensions and the page width and height are the same
-  - [ ] Ensure the canvas scales with the page correctly
+- [x] Add Threejs to the project
+- [x] Use canvas to render anything on the page
+- [x] Ensure the canvas dimensions and the page width and height are the same
+  - [x] Ensure the canvas scales with the page correctly
 
 ### Learning with `Three.js`:
 
-- [ ] Add lighting to the entire 3D world
-- [ ] Create a scene
-  - [ ] Create an object to show on the viewport
+- [x] Add lighting to the entire 3D world
+- [ ] Optimize animation
+- [x] Create a scene
+  - [x] Create an object to show on the viewport
     - [ ] Add material
     - [ ] Add interactions (e.g. mouse clicks, hovers etc.)
     - [ ] Add animation
