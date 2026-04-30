@@ -35,6 +35,7 @@ background: #111112;
 
 ### Versions
 
-- 0.0.1 initial implementation
-- 0.0.2 pivot from initial implementation
-- 0.0.3 added vite and react
+- 0.0.1 Initial implementation
+- 0.0.2 Pivot from initial implementation
+- 0.0.3 Added vite and react
+- 0.0.4 Updated documentation
