@@ -7,6 +7,12 @@ Create a 3D portfolio that showcases my past work experiences, the projects that
 - [x] Create the view of the project using `react.js`
   - [x] Initialize the project with `react`
 
+### Setting up Github Actions:
+
+- [x] Create yml file for actions
+- [ ] Ensure it works and builds the right files
+- [ ] Point github pages to the `dist` folder
+
 ### Setting up for `Three.js`:
 
 - [ ] Add Threejs to the project
