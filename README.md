@@ -37,3 +37,4 @@ background: #111112;
 
 - 0.0.1 initial implementation
 - 0.0.2 pivot from initial implementation
+- 0.0.3 added vite and react
