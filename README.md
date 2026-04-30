@@ -2,41 +2,33 @@
 
 [Live Site](https://chester-tejido.github.io)
 
-Built with the following popular libraries:
+Built with the following libraries:
 
-- <img src="assets/vue-logo.svg" width=2%> [Vue live site](https://chester-tejido.github.io/vue)
-- <img src="assets/react-logo.svg" width=2%> [React live site](https://chester-tejido.github.io/react)
-- <img src="assets/angular-logo.svg" width=2%> [Angular live site](https://chester-tejido.github.io/angular)
+- <img src="assets/threejs-logo.svg" width=2%> Three.js
+- <img src="assets/react-logo.svg" width=2%> React
+- <img src="assets/vite-logo.svg" width=2%> Vite
 
 ---
 
 ## Color Palette:
 
-- Vue green: #6aad7b
-- React blue: #79bcd5
-- Angular red: #cd2142
-- Background dark: #111112
-- Background light: #e0e0e0
-- Box shadow: #bebebe
+- Vue green: `#6aad7b`
+- React blue: `#79bcd5`
+- Angular red: `#cd2142`
+- Background dark: `#111112`
+- Background light: `#e0e0e0`
+- Box shadow: `#bebebe`
 
-#### Neumorphism light
+#### Light
 
 ```css
-border-radius: 40px;
 background: #e0e0e0;
-box-shadow:
-	15px 15px 50px #bebebe,
-	-15px -15px 50px #ffffff;
 ```
 
-#### Neumorphism dark
+#### Dark
 
 ```css
-border-radius: 40px;
 background: #111112;
-box-shadow:
-	15px 15px 50px #070707,
-	-15px -15px 50px #1b1b1d;
 ```
 
 ---
@@ -44,3 +36,4 @@ box-shadow:
 ### Versions
 
 - 0.0.1 initial implementation
+- 0.0.2 pivot from initial implementation
