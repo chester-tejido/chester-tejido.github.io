@@ -1,6 +1,6 @@
 {
 	"name": "chester-tejido.github.io",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Chester Tejido portfolio website",
 	"main": "src/main.tsx",
 	"scripts": {
