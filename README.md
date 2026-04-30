@@ -35,7 +35,9 @@ background: #111112;
 
 ### Versions
 
-- 0.0.1 Initial implementation
-- 0.0.2 Pivot from initial implementation
-- 0.0.3 Added vite and react
-- 0.0.4 Updated documentation
+- 1.0.1 Initial implementation
+- 1.0.2 Pivot from initial implementation
+- 1.0.3 Added vite and react
+- 1.0.4 Updated documentation
+- 1.0.5 Added threejs, react-fiber and react-drei
+- 1.0.6 Added react elements and a 3D cube to the canvas for testing
