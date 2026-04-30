@@ -2,8 +2,9 @@
 	"name": "chester-tejido.github.io",
 	"version": "1.0.0",
 	"description": "Chester Tejido portfolio website",
-	"main": "index.js",
+	"main": "src/main.tsx",
 	"scripts": {
+		"dev": "vite",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
@@ -13,7 +14,16 @@
 	],
 	"author": "Chester Tejido",
 	"license": "ISC",
+	"dependencies": {
+		"react": "^19.2.5",
+		"react-dom": "^19.2.5"
+	},
 	"devDependencies": {
-		"eslint": "^10.0.3"
+		"@types/react": "^19.2.14",
+		"@types/react-dom": "^19.2.3",
+		"@vitejs/plugin-react": "^6.0.1",
+		"eslint": "^10.0.3",
+		"typescript": "^5.9.3",
+		"vite": "^8.0.10"
 	}
 }

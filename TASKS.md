@@ -2,10 +2,17 @@ Create a 3D portfolio that showcases my past work experiences, the projects that
 
 ### Initializing the project:
 
-- [ ] Create the project using `vite.js`
-  - [ ] Initialize the project with `vite`
-- [ ] Create the view of the project using `react.js`
-  - [ ] Initialize the project with `react`
+- [x] Create the project using `vite.js`
+  - [x] Initialize the project with `vite`
+- [x] Create the view of the project using `react.js`
+  - [x] Initialize the project with `react`
+
+### Setting up for `Three.js`:
+
+- [ ] Add Threejs to the project
+- [ ] Use canvas to render anything on the page
+- [ ] Ensure the canvas dimensions and the page width and height are the same
+  - [ ] Ensure the canvas scales with the page correctly
 
 ### Learning with `Three.js`:
 
