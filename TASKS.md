@@ -10,8 +10,8 @@ Create a 3D portfolio that showcases my past work experiences, the projects that
 ### Setting up Github Actions:
 
 - [x] Create yml file for actions
-- [ ] Ensure it works and builds the right files
-- [ ] Point github pages to the `dist` folder
+- [x] Ensure it works and builds the right files
+- [x] Point github pages to the `dist` folder
 
 ### Setting up for `Three.js`:
 
