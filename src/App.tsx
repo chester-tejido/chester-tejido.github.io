@@ -1,6 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import { Header } from './header';
 import { TestCube } from './test-cube';
+import { TestModel } from './test-model';
 
 function Plane() {
 	return (
@@ -22,7 +23,8 @@ export function App() {
 				<ambientLight intensity={0.25} />
 				<pointLight position={[-10, 10, -10]} intensity={0.5} />
 				<TestCube />
-				<Plane />
+				<TestModel />
+				{/* <Plane /> */}
 			</Canvas>
 		</div>
 	);
