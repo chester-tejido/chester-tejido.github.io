@@ -3,15 +3,6 @@ import { Header } from './header';
 import { TestCube } from './test-cube';
 import { TestModel } from './test-model';
 
-function Plane() {
-	return (
-		<mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.5, 0]}>
-			<planeGeometry args={[100, 100]} />
-			<meshStandardMaterial color="white" transparent opacity={0.35} />
-		</mesh>
-	);
-}
-
 export function App() {
 	return (
 		<div style={{ width: '100vw', height: '100vh' }}>
@@ -24,7 +15,6 @@ export function App() {
 				<pointLight position={[-10, 10, -10]} intensity={0.5} />
 				<TestCube />
 				<TestModel />
-				{/* <Plane /> */}
 			</Canvas>
 		</div>
 	);
