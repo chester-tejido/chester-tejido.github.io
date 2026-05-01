@@ -1,15 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import { Header } from './header';
 import { TestCube } from './test-cube';
-
-function Plane() {
-	return (
-		<mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.5, 0]}>
-			<planeGeometry args={[100, 100]} />
-			<meshStandardMaterial color="white" transparent opacity={0.35} />
-		</mesh>
-	);
-}
+import { TestModel } from './test-model';
 
 export function App() {
 	return (
@@ -22,7 +14,7 @@ export function App() {
 				<ambientLight intensity={0.25} />
 				<pointLight position={[-10, 10, -10]} intensity={0.5} />
 				<TestCube />
-				<Plane />
+				<TestModel />
 			</Canvas>
 		</div>
 	);
