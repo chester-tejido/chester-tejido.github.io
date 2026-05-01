@@ -1,6 +1,7 @@
 import { useGLTF } from '@react-three/drei';
+import modelUrl from '../../assets/models/PerspectiveRoom.glb?url';
 
-const MODEL_PATH = '../../../assets/models/PerspectiveRoom.glb';
+const MODEL_PATH = modelUrl;
 
 export function TestModel() {
 	const { nodes } = useGLTF(MODEL_PATH);
