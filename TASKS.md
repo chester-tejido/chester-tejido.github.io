@@ -23,13 +23,13 @@ Create a 3D portfolio that showcases my past work experiences, the projects that
 ### Learning with `Three.js`:
 
 - [x] Add lighting to the entire 3D world
-- [ ] Optimize animation
+- [x] Optimize animation
 - [x] Create a scene
   - [x] Create an object to show on the viewport
-    - [ ] Add material
-    - [ ] Add interactions (e.g. mouse clicks, hovers etc.)
-    - [ ] Add animation
-    - [ ] Add animation on hover
+    - [x] Add material
+    - [x] Add interactions (e.g. mouse clicks, hovers etc.)
+    - [x] Add animation
+    - [x] Add animation on hover
   - [ ] Import 3D object from Blender (glb file)
     - [ ] Add material to object
     - [ ] Add interactions
