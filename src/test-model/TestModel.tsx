@@ -1,18 +1,25 @@
-import { useGLTF } from '@react-three/drei';
+import { GradientTexture, useGLTF } from '@react-three/drei';
 import modelUrl from '../../assets/models/PerspectiveRoom.glb?url';
 
 const MODEL_PATH = modelUrl;
 
 export function TestModel() {
 	const { nodes } = useGLTF(MODEL_PATH);
+	// Fix: Change GradientTexture to rotate correctly on the walls
 	return (
-		<group position={[5, -0.75, -5]} castShadow receiveShadow>
+		<group position={[0, -8, -10]} castShadow receiveShadow>
 			<mesh
 				geometry={(nodes.WallRight as any).geometry}
 				position={[0, 1, 0]}
 				scale={[10, 1, 0.125]}
 			>
-				<meshStandardMaterial color="#b85255" transparent />
+				<meshStandardMaterial>
+					<GradientTexture
+						rotation={(Math.PI / 180) * 90}
+						stops={[0, 1]}
+						colors={['red', 'blue']}
+					/>
+				</meshStandardMaterial>
 			</mesh>
 			<mesh
 				geometry={(nodes.WallLeft as any).geometry}
