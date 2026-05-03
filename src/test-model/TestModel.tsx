@@ -1,11 +1,14 @@
-import { GradientTexture, useGLTF } from '@react-three/drei';
+import { GradientTexture, useGLTF, useTexture } from '@react-three/drei';
 import modelUrl from '../../assets/models/PerspectiveRoom.glb?url';
+import textureUrl from '../../assets/textures/LeftWallTexture.png?url';
 import { useControls } from 'leva';
 
 const MODEL_PATH = modelUrl;
+const TEXTURE_PATH = textureUrl;
 
 export function TestModel() {
 	const { nodes } = useGLTF(MODEL_PATH);
+	const texture = useTexture(TEXTURE_PATH);
 
 	const { position } = useControls('Test Model', {
 		position: {
@@ -22,11 +25,7 @@ export function TestModel() {
 				scale={[10, 1, 0.125]}
 			>
 				<meshStandardMaterial>
-					<GradientTexture
-						rotation={(Math.PI / 180) * 90}
-						stops={[0, 1]}
-						colors={['red', 'blue']}
-					/>
+					<GradientTexture stops={[0, 1]} colors={['red', 'blue']} attach="map" />
 				</meshStandardMaterial>
 			</mesh>
 			<mesh
@@ -35,7 +34,7 @@ export function TestModel() {
 				rotation={[0, Math.PI / 2, 0]}
 				scale={[10, 1, 0.125]}
 			>
-				<meshStandardMaterial color="#8b3c3e" transparent />
+				<meshStandardMaterial map={texture} />
 			</mesh>
 			<mesh
 				geometry={(nodes.Floor as any).geometry}
