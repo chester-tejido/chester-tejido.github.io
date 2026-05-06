@@ -7,6 +7,7 @@ import { CameraControls, CameraControlsImpl } from '@react-three/drei';
 import { Ref, RefObject, useRef, useState, type MutableRefObject } from 'react';
 import { folder, useControls } from 'leva';
 import { CameraStats } from './camera-stats';
+import { PerspectiveRoom } from './perspective-room';
 
 export function App() {
 	const { ACTION } = CameraControlsImpl;
@@ -21,7 +22,7 @@ export function App() {
 					type: THREE.PCFShadowMap,
 				}}
 				frameloop="always"
-				camera={{ position: [5, 5, 5], fov: 50 }}
+				camera={{ position: [12, 12, 12], fov: 50 }}
 			>
 				<CameraControls
 					mouseButtons={{
@@ -39,7 +40,7 @@ export function App() {
 				<ambientLight intensity={0.25} />
 				<pointLight position={[-10, 10, -10]} intensity={0.5} />
 				<TestCube />
-				<TestModel />
+				<PerspectiveRoom />
 			</Canvas>
 		</div>
 	);
