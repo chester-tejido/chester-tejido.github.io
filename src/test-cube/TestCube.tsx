@@ -82,9 +82,7 @@ export function TestCube() {
 				ref={materialRef1}
 				attach="material-0"
 				color={hoveredSide === 0 ? hoveredColor : color}
-			>
-				<GradientTexture stops={[0, 1]} colors={['red', 'blue']} attach="map" />
-			</meshStandardMaterial>
+			/>
 			<meshStandardMaterial
 				ref={materialRef2}
 				attach="material-1"
