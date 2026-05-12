@@ -1,13 +1,32 @@
-import { FloorModel } from './floor';
-import { LeftWallModel } from './left-wall';
-import { RightWallModel } from './right-wall';
+import {
+	BaseBoardRight,
+	BaseBoardLeft,
+	FloorModel,
+	BedModel,
+	WorkstationModel,
+	CabinetModel,
+	CurtainModel,
+	WindowModel,
+	CurtainRodModel,
+	ShelfModel,
+} from '../models';
+import { LeftWallModel, RightWallModel } from '../models/wall';
 
 export function PerspectiveRoom() {
 	return (
 		<group>
-			<FloorModel />
 			<LeftWallModel />
 			<RightWallModel />
+			<BaseBoardRight />
+			<BaseBoardLeft />
+			<BedModel />
+			<WorkstationModel />
+			<CabinetModel />
+			<CurtainModel />
+			<WindowModel />
+			<CurtainRodModel />
+			<ShelfModel />
+			<FloorModel />
 		</group>
 	);
 }
