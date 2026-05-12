@@ -1,11 +1,12 @@
 {
 	"name": "chester-tejido.github.io",
-	"version": "1.0.7",
+	"version": "1.0.9",
 	"description": "Chester Tejido portfolio website",
 	"main": "src/main.tsx",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
+		"importGlb": "node import-glb.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [

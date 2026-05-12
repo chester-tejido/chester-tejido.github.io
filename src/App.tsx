@@ -1,11 +1,8 @@
-import { Canvas, useFrame } from '@react-three/fiber';
+import { Canvas } from '@react-three/fiber';
 import { Header } from './header';
-import { TestCube } from './test-cube';
-import { TestModel } from './test-model';
 import * as THREE from 'three';
 import { CameraControls, CameraControlsImpl } from '@react-three/drei';
-import { Ref, RefObject, useRef, useState, type MutableRefObject } from 'react';
-import { folder, useControls } from 'leva';
+import { useRef } from 'react';
 import { CameraStats } from './camera-stats';
 import { PerspectiveRoom } from './perspective-room';
 
@@ -39,7 +36,6 @@ export function App() {
 				<directionalLight position={[0, 10, 0]} intensity={0.5} castShadow />
 				<ambientLight intensity={0.25} />
 				<pointLight position={[-10, 10, -10]} intensity={0.5} />
-				<TestCube />
 				<PerspectiveRoom />
 			</Canvas>
 		</div>

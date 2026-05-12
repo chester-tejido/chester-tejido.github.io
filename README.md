@@ -15,6 +15,15 @@ Built with the following libraries:
 - Background dark: `#111112`
 - Background light: `#e0e0e0`
 - Box shadow: `#bebebe`
+- Brown: `#88512B`
+- Light Brown: `#CF7B41`
+- Brown (shade): `#C77740`
+- Red: `#FD5B53`
+- Red (shade): `#85302C`
+- Dirty White: `#F4FFD7`
+- Gray: `#595959`
+- Dark Gray: `#454545`
+- Light Gray: `#A1A1A1`
 
 ---
 
@@ -27,3 +36,5 @@ Built with the following libraries:
 - 1.0.5 Added threejs, react-fiber and react-drei
 - 1.0.6 Added react elements and a 3D cube to the canvas for testing
 - 1.0.7 Added learnings for threejs
+- 1.0.8 Added script to automate import of glb files to jsx files
+- 1.0.9 Imported glb files to help complete the scene of the room
