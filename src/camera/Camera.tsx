@@ -137,6 +137,11 @@ export function Camera() {
 								right: ACTION.NONE,
 								wheel: ACTION.NONE,
 							}}
+							touches={{
+								one: ACTION.TOUCH_TRUCK,
+								two: ACTION.NONE,
+								three: ACTION.NONE,
+							}}
 							ref={cameraControlsRef}
 						/>
 					)
