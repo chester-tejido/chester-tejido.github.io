@@ -1,7 +1,7 @@
 import { GradientTexture, useGLTF, useTexture } from '@react-three/drei';
+import { useControls } from 'leva';
 import modelUrl from '../../assets/models/PerspectiveRoom.glb?url';
 import textureUrl from '../../assets/textures/LeftWallTexture.png?url';
-import { useControls } from 'leva';
 
 const MODEL_PATH = modelUrl;
 const TEXTURE_PATH = textureUrl;

@@ -1,4 +1,4 @@
-import { CameraControls, PerspectiveCamera, CameraControlsImpl } from '@react-three/drei';
+import { CameraControls, CameraControlsImpl, PerspectiveCamera } from '@react-three/drei';
 import { button, useControls } from 'leva';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import * as THREE from 'three';

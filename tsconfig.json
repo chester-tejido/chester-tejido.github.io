@@ -8,7 +8,13 @@
 		"isolatedModules": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"types": ["node"]
+		"types": ["node"],
+		"ignoreDeprecations": "6.0",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"],
+			"assets/*": ["./assets/*"]
+		}
 	},
 	"include": ["src"]
 }

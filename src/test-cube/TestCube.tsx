@@ -1,4 +1,4 @@
-import { GradientTexture, Text } from '@react-three/drei';
+import { Text } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import { useRef, useState } from 'react';
 import * as THREE from 'three';

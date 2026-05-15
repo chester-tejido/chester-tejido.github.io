@@ -1,6 +1,6 @@
 import { useGLTF } from '@react-three/drei';
-import modelUrl from '../../../assets/models/BaseBoard.glb?url';
 import { folder, useControls } from 'leva';
+import modelUrl from '../../../assets/models/BaseBoard.glb?url';
 
 useGLTF.preload(modelUrl);
 

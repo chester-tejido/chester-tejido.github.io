@@ -1,14 +1,14 @@
 import {
-	BaseBoardRight,
 	BaseBoardLeft,
-	FloorModel,
+	BaseBoardRight,
 	BedModel,
-	WorkstationModel,
 	CabinetModel,
 	CurtainModel,
-	WindowModel,
 	CurtainRodModel,
+	FloorModel,
 	ShelfModel,
+	WindowModel,
+	WorkstationModel,
 } from '../models';
 import { LeftWallModel, RightWallModel } from '../models/wall';
 
