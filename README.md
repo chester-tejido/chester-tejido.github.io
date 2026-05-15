@@ -38,3 +38,4 @@ Built with the following libraries:
 - 1.0.7 Added learnings for threejs
 - 1.0.8 Added script to automate import of glb files to jsx files
 - 1.0.9 Imported glb files to help complete the scene of the room
+- 1.0.10 Added panning on main scene
