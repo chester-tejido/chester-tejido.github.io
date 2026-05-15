@@ -1,7 +1,7 @@
 import { useGLTF } from '@react-three/drei';
 import { folder, useControls } from 'leva';
-import modelUrl from '../../../assets/models/Window.glb?url';
 import * as THREE from 'three';
+import modelUrl from '../../../assets/models/Window.glb?url';
 
 useGLTF.preload(modelUrl);
 
