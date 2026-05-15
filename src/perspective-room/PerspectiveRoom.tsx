@@ -17,6 +17,7 @@ export function PerspectiveRoom() {
 		<group>
 			<LeftWallModel />
 			<RightWallModel />
+			<FloorModel />
 			<BaseBoardRight />
 			<BaseBoardLeft />
 			<BedModel />
@@ -26,7 +27,6 @@ export function PerspectiveRoom() {
 			<WindowModel />
 			<CurtainRodModel />
 			<ShelfModel />
-			<FloorModel />
 		</group>
 	);
 }
